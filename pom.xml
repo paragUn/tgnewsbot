@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.telegramnewsbot</groupId>
 	<artifactId>telegramnewsbot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<name>Telegram News Bot</name>
 	<description>Telegram bot for channels from community to community</description>
 
