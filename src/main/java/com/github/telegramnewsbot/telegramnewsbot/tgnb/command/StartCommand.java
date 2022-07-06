@@ -10,7 +10,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 public class StartCommand implements Command{
     private final SendBotMessageService sendBotMessageService;
 
-    private static final String START_MESSAGE = "Привет. Я Redirect Telegram Bot. Я помогу тебе получать в одном месте посты " +
+    public static final String START_MESSAGE = "Привет. Я Redirect Telegram Bot. Я помогу тебе получать в одном месте посты " +
             "из каналов, которые тебе интересны. Я еще маленький и только учусь.";
 
     public StartCommand(SendBotMessageService sendBotMessageService){

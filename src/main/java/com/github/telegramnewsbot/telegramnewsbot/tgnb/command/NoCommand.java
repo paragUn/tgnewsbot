@@ -11,7 +11,7 @@ public class NoCommand implements Command {
 
     private final SendBotMessageService sendBotMessageService;
 
-    private static final String NO_MESSAGE = "Я поддерживаю команды, начинающиеся со слеша(/).\n"
+    public static final String NO_MESSAGE = "Я поддерживаю команды, начинающиеся со слеша(/).\n"
             + "Чтобы посмотреть список команд введите /help";
 
     public NoCommand(SendBotMessageService sendBotMessageService){
