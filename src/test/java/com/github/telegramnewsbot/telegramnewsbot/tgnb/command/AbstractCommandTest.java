@@ -33,6 +33,7 @@ abstract class AbstractCommandTest {
                 Message message = Mockito.mock(Message.class);
                 Mockito.when(message.getChatId()).thenReturn(chatId);
                 Mockito.when(message.getText()).thenReturn(getCommandName());
+                update.setMessage(message);
 
                 SendMessage sendMessage = new SendMessage();
                 sendMessage.setChatId(chatId.toString());
