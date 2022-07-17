@@ -1,1 +1,8 @@
-C:\Users\���������\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\TelegramNewsBotApplicationTests.java
+C:\Users\Роман\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\HelpCommandTest.java
+C:\Users\Роман\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StartCommandTest.java
+C:\Users\Роман\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\UnknownCommandTest.java
+C:\Users\Роман\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\NoCommandTest.java
+C:\Users\Роман\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\service\SendBotMessageServiceTest.java
+C:\Users\Роман\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\CommandContainerTest.java
+C:\Users\Роман\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\AbstractCommandTest.java
+C:\Users\Роман\IdeaProjects\tgnewsbot\src\test\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StopCommandTest.java

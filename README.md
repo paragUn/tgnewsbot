@@ -10,7 +10,7 @@ Required software:
 -docker-compose
 
 to deploy application, switch to needed branch and run bash script:
-$bash start.sh @{bot_username} ${bot_token}
+$bash start.sh ${bot_username} ${bot_token}
 That's all.
 
 
