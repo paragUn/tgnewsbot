@@ -1,1 +1,8 @@
-com\github\telegramnewsbot\telegramnewsbot\tgnb\TelegramNewsBotApplicationTests.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StopCommandTest.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\CommandContainerTest.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\HelpCommandTest.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\AbstractCommandTest.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\UnknownCommandTest.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\NoCommandTest.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StartCommandTest.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\service\SendBotMessageServiceTest.class

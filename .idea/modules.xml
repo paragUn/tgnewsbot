@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TelegramBot-for-news.iml" filepath="$PROJECT_DIR$/TelegramBot-for-news.iml" />
       <module fileurl="file://$PROJECT_DIR$/telegramnewsbot.iml" filepath="$PROJECT_DIR$/telegramnewsbot.iml" />
     </modules>
   </component>

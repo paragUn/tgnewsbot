@@ -1,1 +1,12 @@
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StopCommand.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\service\SendBotMessageService.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\UnknownCommand.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StartCommand.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\HelpCommand.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\NoCommand.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\Command.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\CommandName.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\service\SendBotMessageServiceImpl.class
 com\github\telegramnewsbot\telegramnewsbot\tgnb\TelegramNewsBotApplication.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\bot\RedirectTelegramBot.class
+com\github\telegramnewsbot\telegramnewsbot\tgnb\command\CommandContainer.class
