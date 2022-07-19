@@ -1,12 +1,12 @@
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\service\SendBotMessageService.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\TelegramNewsBotApplication.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\Command.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\UnknownCommand.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\CommandName.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\service\SendBotMessageServiceImpl.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StopCommand.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\bot\RedirectTelegramBot.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\CommandContainer.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\NoCommand.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\HelpCommand.java
-C:\Users\Р РѕРјР°РЅ\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StartCommand.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StartCommand.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\UnknownCommand.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\CommandContainer.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\HelpCommand.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\TelegramNewsBotApplication.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\bot\RedirectTelegramBot.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\NoCommand.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\service\SendBotMessageService.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\CommandName.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\service\SendBotMessageServiceImpl.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\Command.java
+C:\Users\Снабжение\IdeaProjects\tgnewsbot\src\main\java\com\github\telegramnewsbot\telegramnewsbot\tgnb\command\StopCommand.java
