@@ -2,6 +2,8 @@ package com.github.telegramnewsbot.telegramnewsbot.tgnb.bot;
 
 import com.github.telegramnewsbot.telegramnewsbot.tgnb.command.CommandContainer;
 import com.github.telegramnewsbot.telegramnewsbot.tgnb.service.SendBotMessageServiceImpl;
+import com.github.telegramnewsbot.telegramnewsbot.tgnb.service.TelegramUserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
@@ -16,13 +18,17 @@ import static com.github.telegramnewsbot.telegramnewsbot.tgnb.command.CommandNam
 public class RedirectTelegramBot extends TelegramLongPollingBot{
 
     public static String COMMAND_PREFIX ="/";
+
     @Value("${bot.username}")
     private String username;
+
     @Value("${bot.token}")
     private String token;
     private final CommandContainer commandContainer;
-    public RedirectTelegramBot() {
-        this.commandContainer = new CommandContainer(new SendBotMessageServiceImpl(this));
+
+    @Autowired
+    public RedirectTelegramBot(TelegramUserService telegramUserService) {
+        this.commandContainer = new CommandContainer(new SendBotMessageServiceImpl(this), telegramUserService);
     }
 
     @Override
@@ -34,6 +40,7 @@ public class RedirectTelegramBot extends TelegramLongPollingBot{
     public String getBotToken() {
         return token;
     }
+
     @Override
     public void onUpdateReceived(Update update) {
         if(update.hasMessage() && update.getMessage().hasText()) {
@@ -46,6 +53,4 @@ public class RedirectTelegramBot extends TelegramLongPollingBot{
             }
         }
     }
-
-
 }
