@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.telegramnewsbot</groupId>
 	<artifactId>telegramnewsbot</artifactId>
-	<version>0.3.0-SNAPSHOT</version>
+	<version>0.4.0-SNAPSHOT</version>
 	<name>Telegram News Bot</name>
 	<description>Telegram bot for channels from community to community</description>
 
@@ -71,7 +71,12 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>

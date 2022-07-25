@@ -3,6 +3,7 @@ package com.github.telegramnewsbot.telegramnewsbot.tgnb.command;
 import com.github.telegramnewsbot.telegramnewsbot.tgnb.bot.RedirectTelegramBot;
 import com.github.telegramnewsbot.telegramnewsbot.tgnb.service.SendBotMessageService;
 import com.github.telegramnewsbot.telegramnewsbot.tgnb.service.SendBotMessageServiceImpl;
+import com.github.telegramnewsbot.telegramnewsbot.tgnb.service.TelegramUserService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -16,6 +17,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 abstract class AbstractCommandTest {
         protected RedirectTelegramBot redirectTelegramBot = Mockito.mock(RedirectTelegramBot.class);
+        protected TelegramUserService telegramUserService = Mockito.mock(TelegramUserService.class);
         protected SendBotMessageService sendBotMessageService = new SendBotMessageServiceImpl(redirectTelegramBot);
 
         abstract String getCommandName();

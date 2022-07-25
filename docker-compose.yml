@@ -1,10 +1,26 @@
 version: '2.6.1'
 
 services:
-  tgnb:
+  tgnb-bot:
+    depends_on:
+      - tgnb-db
     build:
       context: .
     environment:
       BOT_NAME: ${BOT_NAME}
       BOT_TOKEN: ${BOT_TOKEN}
+      BOT_DB_USERNAME: ${BOT_DB_USERNAME}
+      BOT_DB_PASSWORD: ${BOT_DB_PASSWORD}
     restart: always
+  tgnb-db:
+    image: mysql:8.0.29
+    restart: always
+    environment:
+      MYSQL_USER: ${BOT_DB_USERNAME}
+      MYSQL_PASSWORD: ${BOT_DB_PASSWORD}
+      MYSQL_DATABASE: 'tgnb_db'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3308:3306'
+    expose:
+      - '3308'
