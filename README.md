@@ -1,5 +1,5 @@
 # tgnewsbot
-tg sort news bot
+tg sort news bot (!Not finished!)
 
 
 ## Deployment
